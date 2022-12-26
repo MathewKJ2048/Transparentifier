@@ -34,7 +34,7 @@ public class Main
 				int b = c.getBlue();
 				int g = c.getGreen();
 				int a = c.getAlpha();
-				if(r==R && b==B && g==G){g=0;a=0;}
+				if(r==R && b==B && g==G){a=0;}
 				int px = b | g<<8 | r<<16 | a<<24;
 				image.setRGB(i,j,px);
 			}
