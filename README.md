@@ -8,7 +8,7 @@ A headless JRE is sufficient since the tool does not use a GUI.
 
 ## Use:
 
-1) Download **transparentifier.jar** from [here]().  
+1) Download **transparentifier.jar** from [here](https://github.com/MathewKJ2048/Transparentifier/blob/main/downloads/transparentizer.jar?raw=true).  
 2) Run the following command to replace all pixels in `<fname>.png` with color **(r,g,b)** with a transparent pixel:  
 
 ```
