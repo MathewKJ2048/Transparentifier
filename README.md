@@ -15,7 +15,7 @@ A headless JRE is sufficient since the tool does not use a GUI.
 java -jar transparentify.jar <fname>.png <r> <g> <b>
 ```
 
-Where `<fname>` is the relative path of the target file w.r.t transparentifier.jar and `<r>`, `<g>` and `<b>` represent the color (r,g,b)
+Where `<fname>` is the relative path of the target file w.r.t transparentifier.jar and `<r>`, `<g>` and `<b>` represent the color (r,g,b)  
 0 <= r, g, b <= 255  
 
 3) The result is stored with the name `transparent_<fname>.png` in the same location as the original file.
